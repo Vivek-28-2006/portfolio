@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "name": "Vivek Kamble",
+    "role": "B.Tech AIML\nMinor Game Development",
+    "location": "AIML Student",
+    "headline": "I build practical AIML projects and full-stack apps that turn ideas into working prototypes.",
+    "summary": "I am a 2nd year engineering student in B.Tech AIML who enjoys building projects that mix machine learning, clean UI, and reliable APIs. I like breaking big ideas into small experiments, polishing the results, and sharing the outcome on GitHub.",
+    "availability": "Open to internships, collaborations, and learning opportunities",
+    "cta": {
+      "primary": "View Projects",
+      "secondary": "Contact Me"
+    },
+    "stats": [
+      {
+        "label": "GitHub focus",
+        "value": "Active"
+      },
+      {
+        "label": "Year",
+        "value": "2nd"
+      },
+      {
+        "label": "Core",
+        "value": "AIML"
+      }
+    ],
+    "social": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/Vivek-28-2006?tab=repositories"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/vivek-kamble28"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:vivekkamble12345678@gmail.com"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "AIML",
+      "level": "Beginner"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Frontend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "HTML & CSS",
+      "category": "Frontend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "React",
+      "category": "Frontend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Express",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "name": "REST APIs",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Deployment",
+      "category": "DevOps",
+      "level": "Intermediate"
+    }
+  ],
+  "experience": [
+    {
+      "role": "B.Tech AIML Student",
+      "company": "Engineering College",
+      "period": "2024 - Present",
+      "summary": "Exploring machine learning fundamentals, data-driven projects, and full-stack application workflows.",
+      "highlights": [
+        "Building AIML mini projects and sharing learnings on GitHub.",
+        "Practicing clean UI, API integration, and reliable data flow.",
+        "Iterating on project storytelling and presentation."
+      ]
+    },
+    {
+      "role": "Project Builder",
+      "company": "Personal Portfolio",
+      "period": "2025 - Present",
+      "summary": "Creating coursework and personal projects that combine AIML concepts with web delivery.",
+      "highlights": [
+        "Documented project goals, results, and next steps in each repo.",
+        "Focused on readable code and clean project structure.",
+        "Added demos and snapshots to improve clarity."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "GitHub Project Gallery",
+      "category": "Portfolio",
+      "summary": "A curated set of repositories that highlight my AIML experiments, web apps, and coursework builds.",
+      "impact": "Gives recruiters and collaborators a single place to explore my latest work.",
+      "techStack": ["GitHub", "Markdown", "JavaScript"],
+      "link": "https://github.com/Vivek-28-2006?tab=repositories",
+      "repo": "https://github.com/Vivek-28-2006?tab=repositories",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "title": "Full-Stack Practice Builds",
+      "category": "Web Development",
+      "summary": "Web apps that pair clean UI with backend APIs and database storage for end-to-end learning.",
+      "impact": "Improves my confidence in deploying full-stack systems.",
+      "techStack": ["HTML", "CSS", "JavaScript", "Node.js", "PostgreSQL"],
+      "link": "https://github.com/Vivek-28-2006?tab=repositories",
+      "repo": "https://github.com/Vivek-28-2006?tab=repositories",
+      "featured": false,
+      "order": 3
+    }
+  ]
+}

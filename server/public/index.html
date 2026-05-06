@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern full-stack portfolio that showcases projects, skills, and contact details."
+    />
+    <title>Portfolio Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar">
+      <a class="brand" href="#home">Portfolio</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio</p>
+          <h1 id="heroName">Your Name</h1>
+          <p class="hero-title" id="heroTitle">Full-Stack Developer</p>
+          <p class="hero-summary" id="heroSummary">
+            I build polished web products that connect clean interfaces with reliable APIs.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" id="primaryCta">View Projects</a>
+            <a class="button button-secondary" href="#contact" id="secondaryCta">Contact Me</a>
+          </div>
+          <div class="social-row" id="socialLinks"></div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="status-card">
+            <span class="status-dot"></span>
+            <span id="availability">Available for freelance and full-time opportunities</span>
+          </div>
+          <div class="stats-grid" id="statsGrid"></div>
+        </aside>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Built for clarity, speed, and easy updates.</h2>
+        </div>
+        <div class="about-card">
+          <div>
+            <p class="lead" id="location">Open to remote and hybrid roles</p>
+            <p id="bioText">
+              I design and ship full-stack experiences with a focus on clarity, speed, and maintainable code.
+            </p>
+          </div>
+          <div class="about-note">
+            <p>I turn AIML ideas into clean, working demos fast, then polish them into portfolio-ready projects.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and technologies I use across the stack.</h2>
+        </div>
+        <div class="chips" id="skillsGrid"></div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Recent work with a product-first focus.</h2>
+        </div>
+        <div class="project-grid" id="projectsGrid"></div>
+      </section>
+
+      <section class="section reveal" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Background that supports delivery and iteration.</h2>
+        </div>
+        <div class="timeline" id="experienceGrid"></div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a project in mind?</h2>
+        </div>
+        <div class="contact-layout">
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input name="name" type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Subject
+              <input name="subject" type="text" placeholder="Project inquiry" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+          <div class="contact-card">
+            <h3>What this stack includes</h3>
+            <ul>
+              <li>Express API for portfolio and contact data</li>
+              <li>PostgreSQL-backed project storage with a fallback mode for local preview</li>
+              <li>Responsive frontend with animated sections and dynamic content rendering</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
